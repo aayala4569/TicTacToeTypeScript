@@ -1,4 +1,37 @@
-#root {
+/* body{
+  background-image: url('/TypescriptVersion/images/BG.jpeg');
+  background-size: cover; 
+  display: flex;
+  justify-content: center; 
+  
+}  */
+.square{
+  margin-left: 5px;
+  background: white;
+  border: 1px solid black;
+  
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 50px;
+  height: 150px;
+  
+  padding: 0;
+  text-align: center;
+  width: 150px;
+
+  
+}
+
+/* .PuppyLove{
+  height: 150px;
+  width:150px;
+}
+.Puppy{
+  height: 25px;
+  width: 25px;
+} */
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +72,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

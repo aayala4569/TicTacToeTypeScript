@@ -19,9 +19,9 @@ const Board = ({xIsNext, squares, onPlay} : BoardProps) => {
       const nextSquares = squares.slice();
   
       if (xIsNext) {
-        nextSquares[i] = "X";
+        nextSquares[i] = "x";
       } else {
-        nextSquares[i] = "O";
+        nextSquares[i] = "o";
       }
       onPlay(nextSquares);
       
@@ -55,6 +55,7 @@ const Board = ({xIsNext, squares, onPlay} : BoardProps) => {
       status = 'Next player: ' + (xIsNext ? 'X' : 'O');
     }
   
+    
     return (
       <>
        <div className="status">{status}</div>
